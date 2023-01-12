@@ -48,12 +48,10 @@ F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\bin\Debug\netcoreapp3.1\ZstdNet.dll
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.csproj.AssemblyReference.cache
-F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\LoginWindow.g.cs
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\App.g.cs
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV_MarkupCompile.cache
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV_MarkupCompile.lref
-F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\LoginWindow.baml
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.g.resources
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.GeneratedMSBuildEditorConfig.editorconfig
@@ -64,3 +62,9 @@ F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.csproj.CopyC
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.dll
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.pdb
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.genruntimeconfig.cache
+F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\LoginWindow.g.cs
+F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\LoginWindow.baml
+F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\Welcome.g.cs
+F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\Registration.g.cs
+F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\Registration.baml
+F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\Welcome.baml

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 F:\PS231529\CP\kaulOV-DESKTOP\kaulOV\App.xaml
-2-1457342498
+4-1191438798
 
-5641109713
+8480953087
 2001492208842
-Views\LoginWindow.xaml;Views\MainWindow.xaml;
+Views\LoginWindow.xaml;Views\MainWindow.xaml;Views\Registration.xaml;Views\Welcome.xaml;
 
 False
 
