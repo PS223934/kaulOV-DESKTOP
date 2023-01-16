@@ -24,14 +24,12 @@ namespace kaulOV.Classes
                 if (reader.HasRows)
                 {
                     MessageBox.Show("Login Successful");
+                    conn.Close();
                     return true;
                 }
-                else
-                {
-                    MessageBox.Show("Login Failed");
-                    return false;
-                }
-
+                MessageBox.Show("Login Failed");
+                conn.Close();
+                return false;
             }
         }
     }
