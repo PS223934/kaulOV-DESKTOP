@@ -23,13 +23,16 @@ namespace kaulOV.Classes
                 MySqlDataReader reader = cmd.ExecuteReader();
                 if (reader.HasRows)
                 {
-                    MessageBox.Show("Login Successful");
                     conn.Close();
+                    MessageBox.Show("Login Successful");
                     return true;
                 }
-                MessageBox.Show("Login Failed");
-                conn.Close();
-                return false;
+                else
+                {
+                    MessageBox.Show("Login Failed");
+                    return false;
+                }
+
             }
         }
     }
