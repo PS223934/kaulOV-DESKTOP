@@ -31,28 +31,18 @@ namespace kaulOV.Views
         Auth _Auth = new Auth();
         Registration _Registration = new Registration();
         Welcome _Welcome = new Welcome();
-        private void button1_Click(object sender, RoutedEventArgs e)
+        private void Login_Click(object sender, RoutedEventArgs e)
         {
-            if (textBoxEmail.Text.Length == 0)
+            if (TokenBox.Text.Length == 0)
             {
-                errormessage.Text = "Enter an email.";
-                textBoxEmail.Focus();
-            }
-            else if (!Regex.IsMatch(textBoxEmail.Text, @"^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z0-9][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$"))
-            {
-                errormessage.Text = "Enter a valid email.";
-                textBoxEmail.Select(0, textBoxEmail.Text.Length);
-                textBoxEmail.Focus();
+                errormessage.Text = "Enter a token.";
+                TokenBox.Focus();
             }
             else
             {
-                _Auth.Login(textBoxEmail.Text, passwordBox1.Password.ToString());
+                _Auth.Login(TokenBox.Text);
+                this.Close();
             }
-        }
-        private void buttonRegister_Click(object sender, RoutedEventArgs e)
-        {
-            _Registration.Show();
-            Close();
         }
     }
 }

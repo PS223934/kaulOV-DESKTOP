@@ -22,5 +22,10 @@ namespace kaulOV.Views
             InitializeComponent();
 
         }
+
+        private void Users(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
