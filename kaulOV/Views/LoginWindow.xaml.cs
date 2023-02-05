@@ -24,13 +24,12 @@ namespace kaulOV.Views
         /// </summary>   
     public partial class LoginWindow : Window
     {
+        
         public LoginWindow()
         {
             InitializeComponent();
         }
         Auth _Auth = new Auth();
-        Registration _Registration = new Registration();
-        Welcome _Welcome = new Welcome();
         private void Login_Click(object sender, RoutedEventArgs e)
         {
             if (TokenBox.Text.Length == 0)

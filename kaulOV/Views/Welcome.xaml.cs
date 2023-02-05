@@ -23,9 +23,10 @@ namespace kaulOV.Views
 
         }
 
-        private void Users(object sender, RoutedEventArgs e)
+        Window UserWindow = new UserWindow();
+        private void Users_Click(object sender, RoutedEventArgs e)
         {
-
+            UserWindow.Show();
         }
     }
 }
