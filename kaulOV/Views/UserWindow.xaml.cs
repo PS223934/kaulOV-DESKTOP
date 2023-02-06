@@ -1,4 +1,5 @@
 ﻿using kaulOV.Classes;
+using kaulOV.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -19,69 +20,60 @@ namespace kaulOV.Views
     /// <summary>
     /// Interaction logic for UserWindow.xaml
     /// </summary>
-    public partial class UserWindow : Window
+    public partial class UserWindow : Window, INotifyPropertyChanged
     {
-        #region INotifyPropertyChanged
-        public event PropertyChangedEventHandler? PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string? name = null)
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged(string propertyName = null) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+        //linking all the needed database classes so we're able to execute queries with them later
+        User users = new User();
+
+
+        #region Users
+
+        private ObservableCollection<User> observable_Users = new ObservableCollection<User>();
+        public ObservableCollection<User> Users
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+            get { return observable_Users; }
+            set { observable_Users = value; }
         }
-        #endregion
-
-        #region fields
-        private readonly UsersDB db = new UsersDB();
-        private readonly string serviceDeskBericht = "\n\nNeem contact op met de service desk";
-        #endregion
-
-        #region Properties
-        private ObservableCollection<Countries> countries = new();
-
-        public ObservableCollection<Countries> Countries
-        {
-            get { return countries; }
-            set { countries = value; OnPropertyChanged(); }
-        }
-        private Countries? selectedCountry;
-        public Countries? SelectedCountry
-        {
-            get { return selectedCountry; }
-            set { selectedCountry = value; OnPropertyChanged(); }
-        }
-
-        private ObservableCollection<Users> users = new();
-
-        public ObservableCollection<Users> Users
-        {
-            get { return users; }
-            set { users = value; OnPropertyChanged(); }
-        }
-        private Users? selectedUser;
-        public Users? SelectedUser
+        
+        private User selectedUser;
+        public User SelectedUser
         {
             get { return selectedUser; }
-            set { selectedUser = value; OnPropertyChanged(); }
+            set
+            {
+                selectedUser = value;
+                OnPropertyChanged();
+                //InitializeList("Favourites");
+                //InitializeList("Countries");
+            }
         }
         #endregion
-        
-        public UserWindow()
+
+        #region UserData
+
+        private ObservableCollection<Userdatum> observable_UserData = new ObservableCollection<Userdatum>();
+        public ObservableCollection<Userdatum> Userdatum
         {
-            InitializeComponent();
+            get { return observable_UserData; }
+            set { observable_UserData = value; }
         }
 
-        private void AddUserButton_Click(object sender, RoutedEventArgs e)
+        private Userdatum selectedUserdatum;
+        public Userdatum SelectedUserdatum
         {
-
+            get { return selectedUserdatum; }
+            set
+            {
+                selectedUserdatum = value;
+                OnPropertyChanged();
+                //InitializeList("Favourites");
+                //InitializeList("Countries");
+            }
         }
-
-        private void EditUserButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void DeleteUserButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+        #endregion
     }
 }

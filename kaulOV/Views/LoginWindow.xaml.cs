@@ -29,7 +29,8 @@ namespace kaulOV.Views
         {
             InitializeComponent();
         }
-        Auth _Auth = new Auth();
+        
+        Auth auth = new Auth();
         private void Login_Click(object sender, RoutedEventArgs e)
         {
             if (TokenBox.Text.Length == 0)
@@ -39,8 +40,19 @@ namespace kaulOV.Views
             }
             else
             {
-                _Auth.Login(TokenBox.Text);
-                this.Close();
+                bool result = auth.Login(TokenBox.Text);
+                
+                if (result)
+                {
+                    MessageBox.Show("Login successfuld");
+                    this.Close();
+                    Welcome welcome = new Welcome();
+                    welcome.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Login failedz");
+                }
             }
         }
     }

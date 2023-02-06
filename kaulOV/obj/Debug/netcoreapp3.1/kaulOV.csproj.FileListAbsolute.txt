@@ -86,16 +86,14 @@ F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.csproj.AssemblyReference.cache
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\LoginWindow.g.cs
-F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
-F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\Registration.g.cs
+F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\UserWindow.g.cs
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\Welcome.g.cs
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\App.g.cs
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV_MarkupCompile.cache
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV_MarkupCompile.lref
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\App.baml
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\LoginWindow.baml
-F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
-F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\Registration.baml
+F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\UserWindow.baml
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\Welcome.baml
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.g.resources
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.GeneratedMSBuildEditorConfig.editorconfig
@@ -106,5 +104,3 @@ F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.csproj.CopyCo
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.dll
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.pdb
 F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\kaulOV.genruntimeconfig.cache
-F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\UserWindow.g.cs
-F:\Git\KaulOV\kaulOV-DESKTOP\kaulOV\obj\Debug\netcoreapp3.1\Views\UserWindow.baml

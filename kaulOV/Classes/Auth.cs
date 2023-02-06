@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Text;
 using System.Windows;
+using System.Windows.Navigation;
 using kaulOV.Views;
 using MySql.Data.MySqlClient;
 
@@ -10,9 +11,9 @@ namespace kaulOV.Classes
 {
     public class Auth
     {
-        private readonly string _dbc = ConfigurationManager.ConnectionStrings["cString"].ConnectionString;
+        
 
-        Window Welcome = new Welcome();
+        private readonly string _dbc = ConfigurationManager.ConnectionStrings["cString"].ConnectionString;
 
         public bool Login(string token)
         {
@@ -27,13 +28,12 @@ namespace kaulOV.Classes
                 if (reader.HasRows)
                 {
                     conn.Close();
-                    MessageBox.Show("Login Successful");
-                    Welcome.Show();
+
                     return true;
                 }
                 else
                 {
-                    MessageBox.Show("Login Failed");
+
                     return false;
                 }
 

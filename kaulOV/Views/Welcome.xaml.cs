@@ -9,6 +9,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using kaulOV.Views;
 
 namespace kaulOV.Views
 {
@@ -17,16 +18,17 @@ namespace kaulOV.Views
     /// </summary>
     public partial class Welcome : Window
     {
+
         public Welcome()
         {
             InitializeComponent();
 
         }
 
-        Window UserWindow = new UserWindow();
         private void Users_Click(object sender, RoutedEventArgs e)
         {
-            UserWindow.Show();
+            Window uw = new UserWindow();
+            uw.Show();
         }
     }
 }

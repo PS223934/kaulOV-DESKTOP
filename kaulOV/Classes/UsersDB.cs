@@ -16,7 +16,7 @@ namespace kaulOV.Classes
         
         public List<User> All()
         {
-            List<Users> r = new List<UsersDB>();
+            List<User> r = new List<User>();
             using (MySqlConnection conn = new MySqlConnection(_dbc))
             {
                 try
@@ -32,7 +32,6 @@ namespace kaulOV.Classes
                     {
                         User temp = new User();
                         temp.Id = Convert.ToInt32(row["id"]);
-                        temp.Name = row["name"].ToString();
                         temp.Email = row["email"].ToString();
                         r.Add(temp);
                     }
